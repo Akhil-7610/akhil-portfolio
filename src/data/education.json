@@ -1,0 +1,27 @@
+{
+  "education": [
+    {
+      "name": "Seth GL Bihani SD PG College, Rajasthan",
+      "href": "https://www.sdbihanipgcollegesgnr.org/",
+      "title": "Bachelor of Commerce",
+      "logo": "https://www.sdbihanipgcollegesgnr.org/Content/images/favicon.ico",
+      "start": "Sep 2017",
+      "end": "Apr 2020",
+      "description": [
+        "Graduated with a First Class Honours (First Division)",
+        "Relevant Coursework: Business Management, Marketing, Finance, Computer Application, Accounting, Human Resource Management, Operations Management"
+      ]
+    },
+    {
+      "name": "100x devs",
+      "href": "https://100xdevs.com/",
+      "title": "Full Stack Web Development",
+      "logo": "https://100xdevs.com/favicon.ico?favicon.facfa000.ico",
+      "start": "May 2024",
+      "end": "April 2025",
+      "description": [
+        "Intensive 6Months Full Stack Web Development program covering HTML, CSS, JavaScript, Typescript, React.js, Node.js, Nextjs Express.js, MongoDB, and deployment"        
+      ]
+    }
+  ]
+}

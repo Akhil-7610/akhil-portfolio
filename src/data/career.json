@@ -1,0 +1,40 @@
+{
+  "career": [
+    {
+      "name": "Indowel",
+      "href": "https://indowel.com/",
+      "title": "Web Developer (Contract)",
+      "logo": "/img/indowellogo.jpg",
+      "start": "Aug 2025",
+      "end": "Sep 2025",
+      "description": [
+        "Indowel is a modern, high-performance online catalog for a premium home hardware and furnishing products company.",
+        "Focused on a structured, easy-to-browse design that highlights both variety and durability."
+      ]
+    },
+    {
+      "name": "Vasu Interio",
+      "href": "https://www.vasuinterio.com/",
+      "title": "Web Developer (Contract)",
+      "logo": "/img/vasuinteriologo.png",
+      "start": "Mar 2025",
+      "end": "Aug 2025",
+      "description": [
+        "A modern, fully-responsive e-commerce website for a premium interior design company based in Sri Ganganagar.",
+        "The site showcases and helps customers explore a wide range of interior products"
+      ]
+    },
+    {
+      "name": "Shoppers",
+      "href": "https://shoppers-1eq9.vercel.app/",
+      "title": "Full Stack (E-commerce)",
+      "logo": "/img/shoppers.svg",
+      "start": "Nov 2024",
+      "end": "Feb 2025",
+      "description": [
+        "full-stack MERN e-commerce application with secure authentication, payment integration, and an admin dashboard.",
+        "It supports product management, cart, checkout, and order processing with optimized API performance."
+      ]
+    }
+  ]
+}

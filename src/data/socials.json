@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/akhil-lakhmara/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/Akhil-7610",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:akhillakhmara.av78@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

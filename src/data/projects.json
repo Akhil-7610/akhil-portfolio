@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "name": "Vasu Interio",
+      "description": "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
+      "image": "/img/vasuinterio.png",
+      "tags": [
+        "React",
+        "Typescript",
+        "Framer Motion",
+        "GSAP",
+        "Emailjs",
+        "TailwindCSS",
+        "SEO Friendly",
+        "React Router"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://vasuinterio.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Indowel",
+      "description": "Created an online catalog for Indowel to present their wide range of hardware accessories,hinges, tower bolts, screws, handles, and  curtain fittings.",
+      "image": "/img/indowel.png",
+      "tags": [
+        "React",
+        "Typescript",
+        "GSAP",
+        "Emailjs",
+        "TailwindCSS",
+        "SEO Friendly",
+        "React Router"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://indowel.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Shoppers",
+      "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, and secure payment processing via PayPal integration.",
+      "image": "/img/shoppers.png",
+      "tags": [
+        "React.js",
+        "TailwindCSS",
+        "Redux Toolkit",
+        "Node.js",
+        "Express 5",
+        "MongoDB",
+        "PayPal",
+        "JWT Authentication"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://shoppers-1eq9.vercel.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Akhil-7610/shoppers",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}
