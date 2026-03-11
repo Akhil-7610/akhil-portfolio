@@ -1,6 +1,18 @@
 {
   "career": [
     {
+      "name": "Geeky Web Dev",
+      "href": "https://geekywebdev.in/",
+      "title": "Web Developer (Contract)",
+      "logo": "/img/geeky_web_dev.png",
+      "start": "Jan 2026",
+      "end": "Feb 2026",
+      "description": [
+        "A modern web development agency featuring full-stack services, smooth animations, responsive design, and built with cutting-edge web technologies.",
+        "Showcases services including full-stack development, frontend/backend solutions, performance optimization, and SEO-friendly designs."
+      ]
+    },
+    {
       "name": "Indowel",
       "href": "https://indowel.com/",
       "title": "Web Developer (Contract)",
@@ -23,18 +35,7 @@
         "A modern, fully-responsive e-commerce website for a premium interior design company based in Sri Ganganagar.",
         "The site showcases and helps customers explore a wide range of interior products"
       ]
-    },
-    {
-      "name": "Shoppers",
-      "href": "https://shoppers-1eq9.vercel.app/",
-      "title": "Full Stack (E-commerce)",
-      "logo": "/img/shoppers.svg",
-      "start": "Nov 2024",
-      "end": "Feb 2025",
-      "description": [
-        "full-stack MERN e-commerce application with secure authentication, payment integration, and an admin dashboard.",
-        "It supports product management, cart, checkout, and order processing with optimized API performance."
-      ]
     }
+    
   ]
 }

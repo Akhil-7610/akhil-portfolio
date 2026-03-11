@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "name": "Geeky Web Dev",
+      "description": "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
+      "image": "/img/geeky_web_dev_hero.png",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "Shadcn/ui",
+        "GSAP",
+        "Framer Motion",
+        "TailwindCSS",
+        "GSAP"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://geekywebdev.in/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Vasu Interio",
       "description": "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
       "image": "/img/vasuinterio.png",

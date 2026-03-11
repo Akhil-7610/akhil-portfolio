@@ -18,16 +18,58 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Akhil-Portfolio",
-  description: "My personal site to showcase my developer work and opinions.",
+  metadataBase: new URL("https://akkiwebdev.in"),
+  title: {
+    default: "Akhil | Full Stack Developer",
+    template: "%s | Akhil",
+  },
+  description: "Akhil is a Full Stack Web Developer specializing in React, Next.js, modern UI/UX design, and scalable web apps. Explore my creative portfolio, projects, and skills.",
+  keywords: [
+    "Akhil developer",
+    "akkiwebdev.in",
+    "Akhil Portfolio",
+    "Full Stack Developer",
+    "Web Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Frontend Developer",
+    "Software Engineer",
+  ],
+  authors: [{ name: "Akhil" }],
+  creator: "Akhil",
+  openGraph: {
+    title: "Akhil | Full Stack Developer",
+    description: "Explore my creative portfolio, web development projects, and skills. Building seamless digital experiences with React and Next.js.",
+    url: "https://akkiwebdev.in",
+    siteName: "Akhil Portfolio",
+    locale: "en_US",
+    type: "website",
+    images: "/icon.svg",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Akhil | Full Stack Developer",
+    description: "Explore my creative portfolio, web development projects, and skills. Building seamless digital experiences with React and Next.js.",
+    creator: "@Akhil",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: [
-      { url: "/favicon-a.svg", type: "image/svg+xml" },
+      { url: "/icon.svg", type: "image/svg+xml", sizes: "any" },
       { url: "/icon.svg", type: "image/svg+xml" },
     ],
     apple: "/icon.svg",
   },
-  
   manifest: "/manifest.json",
 };
 
