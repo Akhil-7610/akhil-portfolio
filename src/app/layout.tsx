@@ -20,10 +20,10 @@ const calistoga = Calistoga({
 export const metadata: Metadata = {
   metadataBase: new URL("https://akkiwebdev.in"),
   title: {
-    default: "Akhil | Full Stack Developer",
+    default: "Akhil ",
     template: "%s | Akhil",
   },
-  description: "Akhil is a Full Stack Web Developer specializing in React, Next.js, modern UI/UX design, and scalable web apps. Explore my creative portfolio, projects, and skills.",
+  description: "I am a Full Stack Web Developer specializing in React, Next.js, and scalable web apps. Explore my creative portfolio, projects, and skills.",
   keywords: [
     "Akhil developer",
     "akkiwebdev.in",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Akhil" }],
   creator: "Akhil",
   openGraph: {
-    title: "Akhil | Full Stack Developer",
+    title: "Akhil",
     description: "Explore my creative portfolio, web development projects, and skills. Building seamless digital experiences with React and Next.js.",
     url: "https://akkiwebdev.in",
     siteName: "Akhil Portfolio",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Akhil | Full Stack Developer",
+    title: "Akhil",
     description: "Explore my creative portfolio, web development projects, and skills. Building seamless digital experiences with React and Next.js.",
     creator: "@Akhil",
   },
@@ -63,13 +63,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: [
-      { url: "/icon.svg", type: "image/svg+xml", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/icon.svg",
-  },
+
   manifest: "/manifest.json",
 };
 
