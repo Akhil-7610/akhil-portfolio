@@ -78,7 +78,7 @@ export default async function Home() {
 
       <TechStack />
 
-      <DemoMusicPlayer />
+      {/* <DemoMusicPlayer /> */}
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">

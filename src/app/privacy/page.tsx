@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const lastUpdated = "Feb 2025";
+const lastUpdated = "Mar 2026";
 
 export default function page() {
   return (

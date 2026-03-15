@@ -18,9 +18,9 @@ export default function Footer() {
               privacy?
             </Link>
           </p>
-          <div className="mt-2">
+          {/* <div className="mt-2">
             <MusicPlayer showLastPlayed={true} />
-          </div>
+          </div> */}
         </section>
       </div>
     </footer>

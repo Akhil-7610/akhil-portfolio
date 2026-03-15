@@ -37,14 +37,28 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Akhil" }],
   creator: "Akhil",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/icon.svg", sizes: "any", type: "image/svg+xml" },
+    ],
+    apple: "/icon.svg",
+  },
   openGraph: {
-    title: "Akhil",
+    title: "Akhil | Full Stack Developer",
     description: "Explore my creative portfolio, web development projects, and skills. Building seamless digital experiences with React and Next.js.",
     url: "https://akkiwebdev.in",
     siteName: "Akhil Portfolio",
     locale: "en_US",
     type: "website",
-    images: "/icon.svg",
+    images: [
+      {
+        url: "/icon.svg",
+        width: 32,
+        height: 32,
+        alt: "Akhil - Full Stack Developer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

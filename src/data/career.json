@@ -3,10 +3,10 @@
     {
       "name": "Geeky Web Dev",
       "href": "https://geekywebdev.in/",
-      "title": "Web Developer (Contract)",
+      "title": "Owner",
       "logo": "/img/geeky_web_dev.png",
       "start": "Jan 2026",
-      "end": "Feb 2026",
+      "end": "present",
       "description": [
         "A modern web development agency featuring full-stack services, smooth animations, responsive design, and built with cutting-edge web technologies.",
         "Showcases services including full-stack development, frontend/backend solutions, performance optimization, and SEO-friendly designs."
@@ -36,6 +36,5 @@
         "The site showcases and helps customers explore a wide range of interior products"
       ]
     }
-    
   ]
 }

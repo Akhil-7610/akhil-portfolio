@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import { useState } from "react";
 import { Avatar, AvatarFallback } from "./ui/Avatar";
 
 interface OptimizedLogoProps {
@@ -16,6 +18,8 @@ export default function OptimizedLogo({
   className,
   showFallback = true,
 }: OptimizedLogoProps) {
+  const [imageError, setImageError] = useState(false);
+  
   // Check if it's a local image or remote image
   const isLocalImage = src.startsWith("/");
 
@@ -23,29 +27,33 @@ export default function OptimizedLogo({
     <div
       className={`relative flex size-12 shrink-0 overflow-hidden rounded-full border ${className}`}
     >
-      {isLocalImage ? (
-        <div className="relative h-full w-full">
-          <Image
+      {!imageError && (
+        isLocalImage ? (
+          <div className="relative h-full w-full">
+            <Image
+              src={src}
+              alt={alt}
+              fill
+              sizes="48px"
+              className="bg-background object-contain"
+              priority
+              onError={() => setImageError(true)}
+            />
+          </div>
+        ) : (
+          // For remote images, use regular img with optimization
+          <img
             src={src}
             alt={alt}
-            fill
-            sizes="48px"
-            className="bg-background object-contain"
-            priority
+            className="h-full w-full bg-background object-contain"
+            loading="eager"
+            width={48}
+            height={48}
+            onError={() => setImageError(true)}
           />
-        </div>
-      ) : (
-        // For remote images, use regular img with optimization
-        <img
-          src={src}
-          alt={alt}
-          className="h-full w-full bg-background object-contain"
-          loading="eager"
-          width={48}
-          height={48}
-        />
+        )
       )}
-      {showFallback && (
+      {(imageError || !src) && showFallback && (
         <div className="flex h-full w-full items-center justify-center rounded-full bg-muted text-xs font-semibold">
           {name.slice(0, 2).toUpperCase()}
         </div>
